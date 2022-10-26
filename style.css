@@ -7,6 +7,7 @@
   body {
     text-align: center;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(147,67,67,1) 0%, rgba(111,27,27,1) 90% );
+    height: 100vh;
 
     
   }
@@ -62,6 +63,7 @@
   }
   
   .message-box {
+    width: 50vw;
     height: 7.65vh;
     margin: 1% 0 2% 0;
     padding: 5px;
@@ -97,7 +99,7 @@
   }
   
   .result-fixed-message {
-    color: #ffffff;
+    color: #000000;
   }
   
   .result-text {
