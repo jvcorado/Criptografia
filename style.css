@@ -63,7 +63,7 @@
   }
   
   .message-box {
-    width: 50vw;
+    width: 35vw;
     height: 7.65vh;
     margin: 1% 0 2% 0;
     padding: 13px;
@@ -106,7 +106,7 @@
     white-space: pre-wrap;
     background-color: #fff;
     border-radius: 10px;
-    padding-left: 10px;
+    padding: 10px;
     color: #000000;
   }
   
