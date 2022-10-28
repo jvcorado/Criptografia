@@ -5,20 +5,21 @@
     <title>Cifra de César</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Patua+One|Roboto:400,500|Raleway:500,700" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body class="roboto">
-    <main class="d-flex j-center wrap">
+    <main class="d-flex justify-content-center wrap">
       <h1 class="w-100 title-font">Cifra de César</h1>
       <p class="w-100">Digite a mensagem e clique na opção desejada:</p>
-      <div class="d-flex j-center w-100" id="message-container">
-        <textarea type="text" id="message-box" class="message-box w-40 roboto" placeholder="Escreva sua mensagem aqui"></textarea>
+      <div class="d-flex justify-content-center w-100" id="message-container">
+        <textarea type="text" id="message-box" class="message-box w-100 roboto" placeholder="Escreva sua mensagem aqui"></textarea>
       </div>
       <div class="w-100">
         <button class="btn-style roboto" id="cypher">Criptografar</button>
         <button class="btn-style roboto" id="decypher">Descriptografar</button>
       </div>
-      <div class="result-container d-flex wrap j-center w-40" id="results"></div>
+      <div class="result-container d-flex wrap justify-content-center w-50" id="results"></div>
     </main>
 
     <script type='text/javascript' src= 'js/index.js'></script>
