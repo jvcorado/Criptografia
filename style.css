@@ -143,7 +143,7 @@
     }
 
 
-    .message-box, .result-container, {
+    .message-box, .result-container {
       width: 90vw ;
 
     }
