@@ -16,6 +16,8 @@ const bd = [
 ]
 
 function logar(){
+
+
     if(userInput.value == bd[0].user && senhaInput.value == bd[0].senha || userInput.value == bd[1].user && senhaInput.value == bd[1].senha  ){
         return window.location.href='cripto.html'
         
