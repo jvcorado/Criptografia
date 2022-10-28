@@ -131,7 +131,7 @@
       margin-bottom: 20px;
         
     }
-    .message-box, .result-container, input,.btn {
+    main .message-box, .result-container, input,.btn {
       width: 90vw;
 
     }
