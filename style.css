@@ -135,12 +135,11 @@
         
     }
     main {
-      align-self: center;
       background-color: #34b71a;
       width: 100vw!important;
     }
     #user, #senha .btn{
-      width: 80vw;
+      width: 100vw;
     }
 
 
