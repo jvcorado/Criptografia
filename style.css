@@ -116,12 +116,12 @@
       margin-bottom: 20px;
         
     }
-    main,row {
-      background-color: #9ab71a;
+    main {
+      background-color: #1d1ab7;
       width: 100vw !important;
     }
     #user, #senha .btn{
-      width: 100vw !important;
+      width: 80vw !important;
     }
 
 
