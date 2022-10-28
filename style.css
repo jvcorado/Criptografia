@@ -5,9 +5,13 @@
   }
   
   body {
+    width: 100vw;
     text-align: center;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(147,67,67,1) 0%, rgba(111,27,27,1) 90% );
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     
   }
@@ -63,10 +67,9 @@
   }
   
   .message-box {
-    width: 35vw;
-    height: 7.65vh;
+    height: 50px;
     margin: 1% 0 2% 0;
-    padding: 13px;
+    padding: 10px;
     font-weight: normal;
     font-size: 1.2rem;
     border: 1.5px solid #1AA6B7;
@@ -79,9 +82,8 @@
   
   
   .btn-style {
-    width: 16.3vw;
-    margin: 1%;
-    padding: 1.5%;
+    margin: 10px;
+    padding: 10px;
     color: #fff;
     background-color:#1AA6B7;
     border: none;
@@ -125,20 +127,20 @@
   
   @media screen and (max-width: 650px) {
     .message-box{
-        padding: 20px;
-        margin-bottom: 20px;
+      padding: 10px;
+      margin-bottom: 20px;
         
     }
     .message-box, .result-container {
-      width: 80vw;
+      width: 90vw;
 
     }
     .result-container {
       margin-top: 10%;
     }
     .btn-style {
-        width: auto;
-      padding: 3%;
+        width: 90vw;
+        padding: 3%;
     }
   }
 
