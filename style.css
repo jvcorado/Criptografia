@@ -132,7 +132,7 @@
         
     }
     main .message-box, .result-container, input,.btn {
-      width: 90vw;
+      width: 90vw !important;
 
     }
     .result-container {
