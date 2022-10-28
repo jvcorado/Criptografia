@@ -119,10 +119,6 @@
     main {
       width: 100vw !important;
     }
-    #user, #senha, .btn{
-      padding: 10px !important;
-      width: 100vw !important;
-    }
 
 
     .message-box, .result-container {
