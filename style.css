@@ -67,6 +67,7 @@
   }
   
   .message-box {
+    width: 50vw;
     height: 50px;
     margin: 1% 0 2% 0;
     padding: 10px;
