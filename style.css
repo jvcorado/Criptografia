@@ -135,10 +135,16 @@
         
     }
     main {
-      background-color: #1AA6B7;
+      align-self: center;
+      background-color: #34b71a;
       width: 100vw!important;
     }
-    .message-box, .result-container, input,.btn {
+    #user, #senha .btn{
+      width: 80vw;
+    }
+
+
+    .message-box, .result-container, {
       width: 90vw ;
 
     }
