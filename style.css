@@ -132,8 +132,12 @@
       margin-bottom: 20px;
         
     }
-    main .message-box, .result-container, input,.btn {
-      width: 90vw !important;
+    main {
+      background-color: #1AA6B7;
+      width: 100vw!important;
+    }
+    .message-box, .result-container, input,.btn {
+      width: 90vw ;
 
     }
     .result-container {
