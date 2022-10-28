@@ -120,7 +120,8 @@
       background-color: #1d1ab7;
       width: 100vw !important;
     }
-    #user, #senha .btn{
+    #user, #senha, .btn{
+      padding: 20px;
       width: 80vw !important;
     }
 
